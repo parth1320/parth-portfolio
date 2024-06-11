@@ -10,6 +10,7 @@ import { Wrapper, Title, Desc } from "../Skills/SkillsStyledComponent";
 import { TimelineSection } from "../Experience/ExperienceStyledComponent";
 import { education } from "../../data/constants";
 import ExperienceCard from "../Cards/ExperienceCard/ExperienceCard";
+import EducationCard from "../Cards/EducationCard/EducationCard";
 
 const Container = styled.div`
   display: flex;
@@ -35,10 +36,10 @@ const Education = () => {
         </Desc>
         <TimelineSection>
           <Timeline>
-            {education.map((edu, index) => (
+            {education.map((education, index) => (
               <TimelineItem key={index}>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
-                  <div>Hii...</div>
+                  <EducationCard education={education} />
                   {/* <ExperienceCard experience={edu} /> */}
                 </TimelineContent>
                 <TimelineSeparator>

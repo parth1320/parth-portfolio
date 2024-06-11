@@ -29,16 +29,16 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
+  display: flex;
+  align-items: center;
   width: 80%;
   padding: 0 6px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
   text-decoration: none;
-  @media (max-width: 640px) {
-    padding: 0 0px;
-  }
+  color: ${({ theme }) => theme.text_primary};
 `;
+
 export const Span = styled.div`
   padding: 0 4px;
   font-weight: bold;
@@ -225,3 +225,32 @@ export const MobileNavLogo = styled(LinkR)`
     padding: 0 0px;
   }
 `;
+
+export const ColorText = styled.div`
+  color: ${({ theme }) => theme.primary};
+  font-size: 32px;
+`;
+
+// export const NameIcon = styled.div`
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-size: 1.5rem;
+//   color: ${({ theme }) => theme.primary};
+// `;
+
+// export const Name = styled.span`
+//   color: #f8f8f2;
+//   font-size: 1.5rem;
+//   font-weight: 500;
+// `;
+
+// export const Bracket = styled.span`
+//   color: ${({ theme }) => theme.primary};
+//   font-size: 2rem;
+// `;
+
+// export const Slash = styled.span`
+//   color: ${({ theme }) => theme.primary};
+//   font-size: 1.2rem;
+// `;

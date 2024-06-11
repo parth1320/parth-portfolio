@@ -12,6 +12,15 @@ export const Document = styled.img`
   }
 `;
 
+export const Grade = styled.div`
+  font-size: 14px;
+  font-weight: 500;
+  color: ${({ theme }) => theme.text_secondary + 99};
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+`;
+
 export const Description = styled.div`
   width: 100%;
   font-size: 15px;
@@ -89,7 +98,7 @@ export const Body = styled.div`
   flex-direction: column;
 `;
 
-export const Role = styled.div`
+export const Name = styled.div`
   font-size: 18px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary + 99};
@@ -98,7 +107,7 @@ export const Role = styled.div`
   }
 `;
 
-export const Company = styled.div`
+export const Degree = styled.div`
   font-size: 14px;
   font-weight: 500;
   color: ${({ theme }) => theme.text_secondary + 99};
@@ -113,27 +122,5 @@ export const Date = styled.div`
   color: ${({ theme }) => theme.text_secondary + 80};
   @media only screen and (max-width: 768px) {
     font-size: 10px;
-  }
-`;
-
-export const Skills = styled.div`
-  width: 100%;
-  display: flex;
-  gap: 12px;
-  margin-top: -10px;
-`;
-
-export const ItemWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-`;
-
-export const Skill = styled.div`
-  font-size: 15px;
-  font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 99};
-  @media only screen and (max-width: 768px) {
-    font-size: 12px;
   }
 `;

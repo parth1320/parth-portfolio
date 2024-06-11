@@ -43,7 +43,7 @@ const ExperienceCard = ({ experience }) => {
         )}
       </Description>
       {experience.doc && (
-        <a href={experience.doc} target="new">
+        <a href={experience.doc} target="_blank">
           <Document src={experience.doc} />
         </a>
       )}

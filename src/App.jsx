@@ -1,13 +1,17 @@
 import "./App.css";
+import React, { useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
-import { darkTheme } from "./utils/themes";
+import { darkTheme, lightTheme } from "./utils/themes";
 import Navbar from "./components/Navbar/index";
 import HeroSection from "./components/HeroSection/index";
 import Skills from "./components/Skills/index";
 import Education from "./components/Education/index";
+import { DarkModeSwitch } from "react-toggle-dark-mode";
 import { BrowserRouter as Router } from "react-router-dom";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -32,10 +36,20 @@ const Wrapper = styled.div`
 `;
 
 function App() {
+  const [darkMode, setDarkMode] = useState(true);
+
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
+
+  const toggleDarkMode = () => {
+    console.log("toggleDarkMode");
+    setDarkMode(!darkMode);
+  };
+
+  console.log(openModal);
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router>
-        <Navbar />
+        <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
         <Body>
           <HeroSection />
           <Wrapper>
@@ -45,7 +59,9 @@ function App() {
           <Projects />
           <Wrapper>
             <Education />
+            <Contact />
           </Wrapper>
+          <Footer />
         </Body>
       </Router>
     </ThemeProvider>
