@@ -16,7 +16,7 @@ import {
 
 const Skills = () => {
   return (
-    <Container>
+    <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
         <Desc>
@@ -25,11 +25,11 @@ const Skills = () => {
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
-            <Skill>
+            <Skill key={skill}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
                 {skill.skills.map((item) => (
-                  <SkillItem>
+                  <SkillItem key={item}>
                     <SkillImage src={item.image} />
                     {item.name}
                   </SkillItem>

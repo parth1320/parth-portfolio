@@ -7,7 +7,7 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import ExperienceCard from "../Cards/ExperienceCard";
+import ExperienceCard from "../Cards/ExperienceCard/ExperienceCard";
 import { TimelineSection } from "./ExperienceStyledComponent";
 import { experiences } from "../../data/constants";
 
@@ -33,7 +33,7 @@ const Experience = () => {
         <TimelineSection>
           <Timeline>
             {experiences.map((exp, index) => (
-              <TimelineItem>
+              <TimelineItem key={index}>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
                   {index !== experiences.length - 1 && <TimelineConnector />}
