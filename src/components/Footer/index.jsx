@@ -10,7 +10,7 @@ import {
   SocialMediaIcons,
 } from "./FooterStyledComponent";
 import { Bio } from "../../data/constants";
-import { LinkedIn, Twitter, GitHub, Instagram } from "@mui/icons-material";
+import { LinkedIn, X, GitHub } from "@mui/icons-material";
 
 const Footer = () => {
   return (
@@ -29,14 +29,14 @@ const Footer = () => {
             <GitHub />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display">
-            <Twitter />
+            <X />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedIn />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.instagram} target="display">
+          {/* <SocialMediaIcon href={Bio.instagram} target="display">
             <Instagram />
-          </SocialMediaIcon>
+          </SocialMediaIcon> */}
         </SocialMediaIcons>
         <Copyright> © 2021 Parth Kakadiya. All rights reserved.</Copyright>
       </FooterWrapper>

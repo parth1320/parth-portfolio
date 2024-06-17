@@ -27,41 +27,41 @@ const Projects = () => {
         <ToggleButtonGroup>
           {toggle === "all" ? (
             <ToggleButton active value="all" onClick={() => setToggle("all")}>
-              Full-Stack
+              All
             </ToggleButton>
           ) : (
             <ToggleButton value="all" onClick={() => setToggle("all")}>
+              All
+            </ToggleButton>
+          )}
+          <Divider />
+          {toggle === "full stack" ? (
+            <ToggleButton active onClick={() => setToggle("full stack")}>
+              Full-Stack
+            </ToggleButton>
+          ) : (
+            <ToggleButton onClick={() => setToggle("full stack")}>
               Full-Stack
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "web app" ? (
-            <ToggleButton active onClick={() => setToggle("web app")}>
+          {toggle === "front end" ? (
+            <ToggleButton active onClick={() => setToggle("front end")}>
               Front-End
             </ToggleButton>
           ) : (
-            <ToggleButton onClick={() => setToggle("web app")}>
+            <ToggleButton onClick={() => setToggle("front end")}>
               Front-End
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "android app" ? (
-            <ToggleButton active onClick={() => setToggle("android app")}>
+          {toggle === "back end" ? (
+            <ToggleButton active onClick={() => setToggle("back end")}>
               Back-End
             </ToggleButton>
           ) : (
-            <ToggleButton onClick={() => setToggle("android app")}>
+            <ToggleButton onClick={() => setToggle("back end")}>
               Back-End
-            </ToggleButton>
-          )}
-          <Divider />
-          {toggle === "machine learning" ? (
-            <ToggleButton active onClick={() => setToggle("machine learning")}>
-              Other
-            </ToggleButton>
-          ) : (
-            <ToggleButton onClick={() => setToggle("machine learning")}>
-              Other
             </ToggleButton>
           )}
         </ToggleButtonGroup>
