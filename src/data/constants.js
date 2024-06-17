@@ -364,6 +364,40 @@ export const projects = [
     github: "https://github.com/parth1320/simple-shopping-app-using-redux",
     webapp: "https://github.com/parth1320/simple-shopping-app-using-redux",
   },
+  {
+    id: 5,
+    title: "Burger Builder App",
+    date: "Nov 2022",
+    description:
+      "A Burger Builder App made with React Js. Users can build their own burger by adding or removing ingredients. The app also calculates the total price of the burger and allows users to place an order.",
+    image:
+      "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718638590/projects%20thubnails/berger_builder_pg3wa6.png",
+    tags: ["React Js", "JavaScript", "CSS3", "HTML5"],
+    category: "front end",
+    github: "https://github.com/parth1320/burger_builder",
+    webapp: "https://github.com/parth1320/burger_builder",
+  },
+  {
+    id: 6,
+    title: "Storybook",
+    date: "June 2022",
+    description:
+      "Storybook is an open-source tool for posting user stories. Users can view, add, and delete stories. The application is built using javascript, handlebars, and express.js. The application uses MongoDB as the database to store user stories. Autghentication is implemented using passport.js. google OAuth strategy is used for authentication.",
+    image:
+      "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718639133/projects%20thubnails/157712719-f27ca6fd-b50c-45b5-8199-a1b9f00b2a81_rgyirv.png",
+    tags: [
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "Mongoose",
+      "Handlebars",
+      "Passport Js",
+      "Google OAuth",
+    ],
+    category: "full stack",
+    github: "https://github.com/parth1320/Storybook",
+    webapp: "https://github.com/parth1320/Storybook",
+  },
   // {
   //   id: 10,
   //   title: "Job Finding App",

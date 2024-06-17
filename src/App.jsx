@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar/index";
 import HeroSection from "./components/HeroSection/index";
 import Skills from "./components/Skills/index";
 import Education from "./components/Education/index";
-import { DarkModeSwitch } from "react-toggle-dark-mode";
+import ProjectDetails from "./components/ProjectDetails";
+
 import { BrowserRouter as Router } from "react-router-dom";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -56,12 +57,15 @@ function App() {
             <Skills />
             <Experience />
           </Wrapper>
-          <Projects />
+          <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
             <Contact />
           </Wrapper>
           <Footer />
+          {openModal.state && (
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          )}
         </Body>
       </Router>
     </ThemeProvider>

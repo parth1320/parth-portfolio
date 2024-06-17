@@ -12,12 +12,12 @@ import {
   Tag,
 } from "./ProjectsCardStyledComponents";
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project, setOpenModal }) => {
   return (
-    <Card onClick={() => setOpenModal(project)}>
+    <Card onClick={() => setOpenModal({ state: true, project: project })}>
       <Image src={project.image} alt={project.title} />
       <Tags>
-        {project.tags.map((tag) => (
+        {project.tags?.map((tag, index) => (
           <Tag key={tag}>{tag}</Tag>
         ))}
       </Tags>
