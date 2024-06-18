@@ -230,8 +230,8 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718212339/logos/1631541254-10889-0_kuge3f.jpg",
-    school: "Technical University of Chemnitz",
+    img: "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718739785/logos/KHS_TUC_farbig_dt_emh6u2.jpg",
+    school: "Technical University of Chemnitz, Germany",
     date: "Oct 2021 - Present",
     // grade: "8.71 CGPA",
     desc: "I am pursuing my Master's in Web Engineering at the Technical University of Chemnitz, Germany. I am specializing in Database and Webtechniques. I am learning about the latest technologies and tools used in the industry.",
