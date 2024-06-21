@@ -192,7 +192,7 @@ export const experiences = [
       "Material UI",
       "JavaScript",
     ],
-    doc: "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718135968/Parth_Agile_Experience_Certificate_llpiwa.png",
+    doc: "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718135968/certificates/Parth_Agile_Experience_Certificate_llpiwa.png",
   },
   {
     id: 1,
@@ -217,13 +217,13 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718137580/Prakshal_Logo_kxvhwg.png",
+    img: "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718137580/logos/Prakshal_Logo_kxvhwg.png",
     role: "PHP & Web Designing",
     company: "Prakshal",
     date: "22 January 2019 - 26-July 2019",
     desc: "Worked on PHP, MySQL, HTML, CSS, JavaScript, and jQuery. Designed and developed a website for the company. Learned about the basics of web development and how to work in a team.",
     skills: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "jQuery"],
-    doc: "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718137179/Parth_Internship_Certificate_v1g0ke.png",
+    doc: "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718137179/certificates/Parth_Internship_Certificate_v1g0ke.png",
   },
 ];
 
