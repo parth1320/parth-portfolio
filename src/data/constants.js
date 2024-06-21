@@ -2,7 +2,7 @@ export const Bio = {
   name: "Parth Kakadiya",
   roles: ["Full Stack Developer", "Programmer"],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Dynamic Full-Stack Web Developer with two years of experience in designing and maintaining web applications. Currently pursuing a Master's in Web Engineering at the Technical University of Chemnitz. Proficient in various programming languages and frameworks, with a passion for creating user-friendly interfaces. ",
   github: "https://github.com/parth1320",
   resume:
     "https://drive.google.com/file/d/16ZDohxbGr4anqhV0G-aWRd7c_POsPLay/view?usp=sharing",
@@ -231,7 +231,7 @@ export const education = [
   {
     id: 0,
     img: "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718739785/logos/KHS_TUC_farbig_dt_emh6u2.jpg",
-    school: "Technical University of Chemnitz, Germany",
+    school: "Technical University of Chemnitz, Germany.",
     date: "Oct 2021 - Present",
     // grade: "8.71 CGPA",
     desc: "I am pursuing my Master's in Web Engineering at the Technical University of Chemnitz, Germany. I am specializing in Database and Webtechniques. I am learning about the latest technologies and tools used in the industry.",
