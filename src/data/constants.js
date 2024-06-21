@@ -266,7 +266,7 @@ export const projects = [
     description:
       "This is a data visualization tool built with React.js and Chart.js, now using TypeScript for the frontend. It provides users with the ability to upload CSV files containing data, visualize the data using interactive charts (such as line plots, multi-line plots, and scatter plots), and manipulate visualization parameters like chart type, and axis labels. For the backend, Sequelize ORM has been integrated, making database interaction more secure and manageable. The tool is designed to be user-friendly, responsive, and capable of handling large datasets efficiently.",
     image:
-      "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718191577/iigwnyc4vuzqdsnayznj.png",
+      "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718191577/projects%20thubnails/iigwnyc4vuzqdsnayznj.png",
     tags: [
       "React Js",
       "TypeScript",
@@ -290,7 +290,7 @@ export const projects = [
     description:
       "It provides functionalities for managing users, videos, subscriptions, comments, tweets, likes, and playlists. The project utilizes MongoDB as the database, Mongoose for object modeling, and Express.js for building the RESTful API endpoints.",
     image:
-      "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718193334/Backend_for_video_app_like_youtube_ggeprb.png",
+      "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718193334/projects%20thubnails/Backend_for_video_app_like_youtube_ggeprb.png",
     tags: [
       "Node Js",
       "Express Js",
