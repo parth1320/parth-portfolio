@@ -2,7 +2,7 @@ export const Bio = {
   name: "Parth Kakadiya",
   roles: ["Full Stack Developer", "Programmer"],
   description:
-    "Dynamic Full-Stack Web Developer with two years of experience in designing and maintaining web applications. Currently pursuing a Master's in Web Engineering at the Technical University of Chemnitz. Proficient in various programming languages and frameworks, with a passion for creating user-friendly interfaces. ",
+    "Dynamic Full-Stack Web Developer with two years of experience in designing and maintaining web applications. Currently pursuing a Master's in Web Engineering at the Technical University of Chemnitz, Germany. Proficient in various programming languages and frameworks, with a passion for creating user-friendly interfaces. ",
   github: "https://github.com/parth1320",
   resume:
     "https://drive.google.com/file/d/16ZDohxbGr4anqhV0G-aWRd7c_POsPLay/view?usp=sharing",
