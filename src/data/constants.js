@@ -218,8 +218,8 @@ export const experiences = [
   {
     id: 2,
     img: "https://res.cloudinary.com/dh8kbn7ra/image/upload/v1718137580/logos/Prakshal_Logo_kxvhwg.png",
-    role: "PHP & Web Designing",
-    company: "Prakshal",
+    role: "Web Developer Intern",
+    company: "Prakshal IT Academy, Gandhinagar, India",
     date: "22 January 2019 - 26-July 2019",
     desc: "Worked on PHP, MySQL, HTML, CSS, JavaScript, and jQuery. Designed and developed a website for the company. Learned about the basics of web development and how to work in a team.",
     skills: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "jQuery"],
