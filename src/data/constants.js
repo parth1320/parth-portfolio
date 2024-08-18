@@ -5,7 +5,7 @@ export const Bio = {
     "Dynamic Full-Stack Web Developer with two years of experience in designing and maintaining web applications. Currently pursuing a Master's in Web Engineering at the Technical University of Chemnitz, Germany. Proficient in various programming languages and frameworks, with a passion for creating user-friendly interfaces. ",
   github: "https://github.com/parth1320",
   resume:
-    "https://drive.google.com/file/d/16ZDohxbGr4anqhV0G-aWRd7c_POsPLay/view?usp=sharing",
+    "https://drive.google.com/file/d/1S8fehk_dwxfpES93M9N2LG-rMifrf4Cb/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/parth--kakadiya/",
   twitter: "https://x.com/parth1320",
   xing: "https://www.xing.com/profile/Parth_Kakadiya",
