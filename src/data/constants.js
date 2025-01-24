@@ -5,7 +5,7 @@ export const Bio = {
     "Dynamic Full-Stack Web Developer with two years of experience in designing and maintaining web applications. Currently pursuing a Master's in Web Engineering at the Technical University of Chemnitz, Germany. Proficient in various programming languages and frameworks, with a passion for creating user-friendly interfaces. ",
   github: "https://github.com/parth1320",
   resume:
-    "https://drive.google.com/file/d/1S8fehk_dwxfpES93M9N2LG-rMifrf4Cb/view?usp=drive_link",
+    "https://drive.google.com/file/d/1S8fehk_dwxfpES93M9N2LG-rMifrf4Cb/view?usp=drive_link ",
   linkedin: "https://www.linkedin.com/in/parth--kakadiya/",
   twitter: "https://x.com/parth1320",
   xing: "https://www.xing.com/profile/Parth_Kakadiya",
@@ -175,7 +175,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C4E0BAQFUQplhUuPA_Q/company-logo_100_100/0/1631348808209?e=1726099200&v=beta&t=zHcz_p59SXB_pLZ0mVSxyk4uCE0q19mUUGsaKPd1FS8",
+    img: "https://d3gseh8bdqsug8.cloudfront.net/wp-content/uploads/2023/06/Agile_Infoways-1.svg",
     role: "Full-Stack Developer",
     company: "Agile Infoways Pvt Ltd",
     date: "September 2020 - September 2021",
@@ -196,7 +196,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/C4E0BAQFUQplhUuPA_Q/company-logo_100_100/0/1631348808209?e=1726099200&v=beta&t=zHcz_p59SXB_pLZ0mVSxyk4uCE0q19mUUGsaKPd1FS8",
+    img: "https://d3gseh8bdqsug8.cloudfront.net/wp-content/uploads/2023/06/Agile_Infoways-1.svg",
     role: "Web Developer Intern",
     company: "Agile Infoways Pvt Ltd",
     date: "January 2020 - August 2020",
